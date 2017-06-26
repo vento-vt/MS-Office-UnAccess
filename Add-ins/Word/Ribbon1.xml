@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <backstage>
+    <button idMso="FileSave" visible="true"/>
+    <button idMso="FileSaveAs" visible="false"/>
+    <button idMso="FileOpen" visible="false"/>
+    <button idMso="FileClose" visible="true"/>
+    <button idMso="ApplicationOptionsDialog" visible="true"/>
+    <button id="btnBackstage1"
+            label="Закрыть"
+            imageMso="HappyFace"
+            onAction="OnActionButton"/>
+    <button id="btnBackstage2"
+            label="Печать"
+            imageMso="PrintDialogAccess"
+            onAction="Print"/>
+    <button id="btnBackstage3"
+            label="111"
+            imageMso="HappyFace"
+            onAction="CallbackCut"/>
+    <button idMso="FileExit" visible="true"/>
+    <button idMso="HistoryTab" visible="false"/>
+    <button idMso="OfficeFeedback" visible="false"/>
+    <tab idMso="TabInfo" visible="false"/>
+    <tab idMso="TabRecent" visible="false"/>
+    <tab idMso="TabNew" visible="false"/>
+    <tab idMso="TabPrint" visible="true"/>
+    <tab idMso="TabShare" visible="false"/>
+    <tab idMso="TabHelp" visible="false"/>
+    <tab idMso="TabPublish" visible="false"/>
+    <tab idMso="TabSave" visible="true"/>
+    <tab idMso="TabOfficeStart" visible="false"/>
+    <tab idMso="Publish2Tab" visible="false"/>
+  </backstage>
+</customUI>
+
